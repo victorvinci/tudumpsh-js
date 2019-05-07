@@ -13,7 +13,7 @@ body,html {
 .keys {
   display: flex;
   flex: 1;
-  min-height: 100vh;
+  min-height: 50vh;
   align-items: center;
   justify-content: center;
 }
@@ -36,6 +36,12 @@ body,html {
   transform: scale(1.1);
   border-color: #ffc600;
   box-shadow: 0 0 1rem #ffc600;
+}
+
+.playing-red {
+  transform: scale(1.1);
+  border-color: red;
+  box-shadow: 0 0 1rem red;
 }
 
 kbd {
