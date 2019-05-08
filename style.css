@@ -15,10 +15,11 @@ h1 {
   text-align: end;
   position: absolute;
   right: 0;
-  font-size: 140px;
+  font-size: calc(4.6875rem + ((1vw - 4.8px) * 5.2083));;
   width: 50%;
   margin: 118px 20px;
   line-height: 200px;
+  z-index: -1;
   color: #fff;
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
 }
