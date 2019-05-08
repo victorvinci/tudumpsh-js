@@ -1,6 +1,7 @@
 html {
   font-size: 10px;
-  background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
+  /* background: url(https://catracalivre.com.br/wp-content/uploads/2015/12/andre_marques_dj.png) bottom center; */
+  background: url(images/mandandoaquele.gif) bottom center;
   background-size: cover;
 }
 
@@ -28,7 +29,7 @@ body,html {
   width: 20rem;
   text-align: center;
   color: white;
-  background: rgba(0,0,0,0.4);
+  background: rgba(0, 0, 0, 0.8);
   text-shadow: 0 0 .5rem black;
 }
 
