@@ -3,22 +3,24 @@ html {
   /* background: url(https://catracalivre.com.br/wp-content/uploads/2015/12/andre_marques_dj.png) bottom center; */
   background: url(images/passinho.gif) bottom center;
   background-size: cover;
-}
-
-body,html {
+  height: 100vh;
   margin: 0;
   padding: 0;
   font-family: sans-serif;
 }
 
+body,html {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 h1 {
-  text-align: end;
-  position: absolute;
-  right: 0;
+  margin: 30px;
+  padding-bottom: 20px;
+  text-align: center;
   font-size: calc(4.6875rem + ((1vw - 4.8px) * 5.2083));;
-  width: 50%;
-  margin: 118px 20px;
-  line-height: 200px;
   z-index: -1;
   color: #fff;
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
@@ -26,9 +28,6 @@ h1 {
 
 .keys {
   display: flex;
-  flex: 1;
-  min-height: 25vh;
-  width: 75%;
   align-items: flex-end;
   justify-content: flex-start;
 }
@@ -37,15 +36,13 @@ h1 {
     border: .4rem solid black;
     border-radius: .5rem;
     margin: 0.5rem;
-    font-size: 1.5rem;
-    padding: 1rem .5rem;
     transition: all .07s ease;
-    width: 10rem;
+    width: 8rem;
     text-align: center;
     color: white;
     background: rgba(0, 0, 0, 0.8);
     text-shadow: 0 0 .5rem black;
-    height: 10rem;
+    height: 8rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -65,11 +62,11 @@ h1 {
 
 kbd {
   display: block;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .sound {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
   color: #ffc600;
